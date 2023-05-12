@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""This file defines the unit tests for the console.py file.
+"""This Python file is a representation of all the unit tests for the console.py file.
 
 Unittest classes:
     TestHBNBCommand_prompting
