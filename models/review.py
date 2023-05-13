@@ -1,10 +1,10 @@
 #!/usr/bin/python3
-"""Instatiates the Review class."""
+"""Manifests the Review class."""
 from models.base_model import BaseModel
 
 
 class Review(BaseModel):
-    """Reps a review.
+    """Represents a review.
 
     Attributes:
         place_id (string): Place id.
