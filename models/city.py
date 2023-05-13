@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Instantiate the City class."""
+"""Incorporates the City class."""
 from models.base_model import BaseModel
 
 
