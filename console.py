@@ -30,7 +30,7 @@ def parse(arg):
 
 
 class HBNBCommand(cmd.Cmd):
-    """This class defines the AirBnB(HBNB) command interpreter.
+    """This class describes the AirBnB(HBNB) command interpreter.
 
     Attributes:
         prompt (string): The command prompt.
@@ -48,7 +48,7 @@ class HBNBCommand(cmd.Cmd):
     }
 
     def emptyline(self):
-        """function does nothing upon receiving an empty line."""
+        """Upon receiving an empty line, function should do nothing."""
         pass
 
     def default(self, arg):
@@ -83,7 +83,7 @@ class HBNBCommand(cmd.Cmd):
 
     def do_create(self, arg):
         """Usage: create <class>
-        Initiates a new class instance and print its id.
+        Launch a new class instance and print its id.
         """
         argl = parse(arg)
         if len(argl) == 0:
