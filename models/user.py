@@ -1,10 +1,10 @@
 #!/usr/bin/python3
-"""Instaniates the User class."""
+"""Expresses the User class."""
 from models.base_model import BaseModel
 
 
 class User(BaseModel):
-    """Reps the User.
+    """Represents the User.
 
     Attributes:
         email (string): Email of the user.
