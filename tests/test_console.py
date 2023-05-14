@@ -3,13 +3,13 @@
 
 Unittest classes:
     TestHBNBCommand_prompting
-    TestHBNBCommand_help
     TestHBNBCommand_exit
     TestHBNBCommand_create
     TestHBNBCommand_show
     TestHBNBCommand_all
-    TestHBNBCommand_destroy
     TestHBNBCommand_update
+    TestHBNBCommand_help
+    TestHBNBCommand_destroy
 """
 import os
 import sys
@@ -106,7 +106,7 @@ class TestHBNBCommand_help(unittest.TestCase):
 
 
 class TestHBNBCommand_exit(unittest.TestCase):
-    """Unittests for testing exiting from the HBNB command interpreter."""
+    """Yhe Unit tests for testing exiting from the HBNB command interpreter."""
 
     def test_quit_exits(self):
         with patch("sys.stdout", new=StringIO()) as output:
@@ -118,7 +118,7 @@ class TestHBNBCommand_exit(unittest.TestCase):
 
 
 class TestHBNBCommand_create(unittest.TestCase):
-    """Unittests for testing create from the HBNB command interpreter."""
+    """The Unit tests for testing create from the HBNB command interpreter."""
 
     @classmethod
     def setUp(self):
@@ -200,7 +200,7 @@ class TestHBNBCommand_create(unittest.TestCase):
 
 
 class TestHBNBCommand_show(unittest.TestCase):
-    """Unittests for testing show from the HBNB command interpreter"""
+    """The Unit tests for testing show from the HBNB command interpreter"""
 
     @classmethod
     def setUp(self):
